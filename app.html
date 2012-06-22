@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="UTF-8" />
+    <title>tune.findr</title>
+
+    <link type="text/css" rel="stylesheet" media="all" href="assets/style.css" />
+	
+    <script type="application/x-shockwave-flash" src="libs/air/applicationupdater_ui.swf" />
+    
+	<script type="text/javascript" src="libs/air/AIRAliases.js"></script>
+    <script type="text/javascript" src="libs/air/AIRIntrospector.js"></script>
+	<script type="text/javascript" charset="utf-8" src="libs/jquery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="libs/smoothscroll.js"></script>
+    <script type="text/javascript" charset="utf-8" src="assets/main.js"></script>
+	<script type="text/javascript" charset="utf-8" src="assets/Soundcloud.js"></script>
+  </head>
+  <body>
+  	<div id="player"></div>
+    <div id="col1">
+	    <div id="search">
+    	    <input type="text" value="" placeholder="search here" />
+    		<div class="options">
+    			<select name="min_duration" id="min_duration">
+        			<option value="medium">Duration > 30 min</option>
+        			<option value="long" selected="selected">Duration > 1 hour</option>
+    			</select>
+    			<select name="order" id="order">
+    			    <option value="hotness">Sort by Hotness</option>
+        			<option value="time" selected="selected">Sort by Date</option>
+        			
+    			</select>
+                <select name="type" id="type">
+        			<option value="stream" selected="selected">Streamable</option>
+        			<option value="download" >Downloadable</option>
+    			</select>
+    		</div>
+    	</div>
+        
+        <div id="tags"><a href="#">2012</a> <a href="#">afrobeat</a> <a href="#">ambient</a>
+        <a href="#">breaks</a> <a href="#">chillout</a>
+        <a href="#">dancehall</a> <a href="#">downtempo</a> <a href="#">drum & bass</a> <a href="#">dub</a> <a href="#">dubstep</a> <a href="#">drumfunk</a> <a href="#">liquid</a>
+        <a href="#">funk</a> <a href="#">hiphop</a>
+         <a href="#">lounge</a> <a href="#">minimal</a>
+        <a href="#">reggae</a> <a href="#">ragga</a> <a href="#">grime</a> <a href="#">mixtape</a> 
+		
+        <a href="#">trance</a> <a href="#">vocal</a> </div>     
+    </div>
+    
+	<div id="col2">
+	    <div id="playlist"></div>
+        <div id="actions"></div>
+    </div>
+    <div id="loader"></div>
+
+  </body>
+</html>
+

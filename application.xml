@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+	<id>me.airy.tunes</id>
+	<version>1.5</version>
+	<filename>tunes</filename>
+    <name>Tunes Finder</name>
+    <description>Easy mixes listening</description>
+	<copyright>www.airy.me (c) 2012</copyright>
+	<initialWindow>
+		<x>300</x>
+		<y>100</y>
+	  <systemChrome>standard</systemChrome>
+		<resizable>false</resizable>
+		<title>TunesFinder</title>
+		<visible>true</visible>
+		<content>app.html</content>
+		<width>605</width>
+		<height>525</height>
+	<transparent>false</transparent>
+<maximizable>true</maximizable>
+<minimizable>true</minimizable>
+</initialWindow>
+	<icon>
+	    <image16x16>assets/images/logo_16.png</image16x16>
+	    <image32x32>assets/images/logo_32.png</image32x32>
+	    <image48x48>assets/images/logo_48.png</image48x48>
+	    <image128x128>assets/images/logo_128.png</image128x128>
+	</icon>
+</application>
